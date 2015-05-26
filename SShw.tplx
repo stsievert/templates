@@ -1,0 +1,65 @@
+
+% Default to the notebook output style
+((* if not cell_style is defined *))
+    ((* set cell_style = 'style_ipython.tplx' *))
+((* endif *))
+
+% Inherit from the specified cell style.
+((* extends cell_style *))
+
+
+%===============================================================================
+% Latex Article
+%===============================================================================
+
+%%%%%%%%%%%%%%%%%%%%%
+%%% SCOTT SIEVERT %%%
+%%%%%%%%%%%%%%%%%%%%%
+% LATEX generated with command
+% ipython nbconvert --to pdf --template SShw filename.ipynb
+%
+% ### NOTES
+% * `\begin{align}` works in the IPython notebook but fails on compilation;
+%   use `\begin{aligned}` instead (because you're in math mode)
+% * I ran into issues with mixing math mode and \textrm. I had to escape outside
+%   of math mode -- instead of $...\textrm{ }...$ I used $...$ text $...$
+% * I ran into issues mixing math in section headings. Find a way not to include
+%   math in titles; it's the nicest solution (kind of like math and emails)
+% 
+% PYTHON code generated with command
+% ipython nbconvert --to python filename.ipynb
+
+((* block title *))
+\author{Scott Sievert\\
+    \href{mailto:sieve121@umn.edu}{\texttt{sieve121@umn.edu}}\\
+    4058570
+}
+\title{Homework 3}
+\date{ }
+\makeatletter
+\def\maketitle{%
+\begin{center}
+   ~\vspace{25em}\\
+   \textbf{\huge EE5393: Circuits, Computation and Biology}\\~\\~\\
+   \textbf{\Large \@title}\\~\\%
+   {\@author}%
+   \thispagestyle{empty}
+   \newpage
+
+   \tableofcontents
+   \thispagestyle{empty}
+   \newpage
+   \makeatother
+\end{center}
+}
+((* endblock title *))
+
+((* block docclass *))
+\documentclass{article}
+((* endblock docclass *))
+
+%((* block abstract *))
+%\tableofcontents
+%((* endblock abstract *))
+
+

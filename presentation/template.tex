@@ -1,0 +1,84 @@
+\documentclass{beamer}
+\usepackage{amsthm}
+\usepackage{animate}
+
+\title[An alternate title]{A presentation}
+\author{Scott Sievert}
+\institute{University of Wisconsin-Madison}
+\date{April 29, 1992}
+
+% Themes
+\usetheme{Boadilla}
+\usecolortheme{sidebartab}
+\usefonttheme{structurebold} 
+\setbeamertemplate{itemize items}[default]
+\setbeamertemplate{enumerate items}[default]
+\setbeameroption{show notes}
+
+% change the footer
+\makeatother
+\setbeamertemplate{footline}{
+    \leavevmode%
+    \hbox{%
+    \begin{beamercolorbox}[wd=.4\paperwidth,ht=2.25ex,dp=1ex,center]{author in head/foot}%
+        \usebeamerfont{author in head/foot}\insertshortauthor
+    \end{beamercolorbox}%
+    \begin{beamercolorbox}[wd=.6\paperwidth,ht=2.25ex,dp=1ex,center]{title in head/foot}%
+        \usebeamerfont{title in head/foot}\insertshorttitle\hspace*{3em}
+        \insertframenumber{} / \inserttotalframenumber\hspace*{1ex}
+    \end{beamercolorbox}}%
+    \vskip0pt%
+}
+\makeatletter
+\setbeamertemplate{navigation symbols}{}
+
+% Fonts. Uncomment these if you want
+%\usepackage{tgheros}
+%\usepackage{tgadventor}
+\usepackage{libertine}
+%\usepackage[T1]{fontenc}
+
+% For defining theorems
+\newtheorem{mydef}{Golden ratio}
+
+\begin{document}
+\maketitle
+
+\begin{frame}
+    \frametitle{Animations}
+    % PNG sequence generated with 
+    % gifsicle --unoptimize figures/boot.gif | convert - figures/boot/boot-%d.png
+    % HINTS:
+    %   * remove --unoptimize flag if you get warning
+    %   * mkdir figures/boot/ first
+    % open with Adobe Reader to get this to work
+    \animategraphics[loop,autoplay, width=\linewidth]{12}{figures/boot/boot-}{0}{30}
+\end{frame}
+
+\begin{frame}
+    \frametitle{First slide}
+    \begin{itemize}
+        \item Bullets propery
+        \item Quotes proper
+        \item Thm boxes proper
+        \item Animations
+        \item Comments
+    \end{itemize}
+\end{frame}
+
+\begin{frame}
+    \frametitle{Quote}
+    \begin{quotation}
+        This is the best time!
+    \end{quotation}
+    I'm okay leaving this as is -- seems like a small deal.
+\end{frame}
+
+\begin{frame}
+    \frametitle{Thm boxes}
+    \begin{mydef}
+        $x^2 + x + 1 = 0 \implies x = \phi \qed$
+    \end{mydef}
+\end{frame}
+
+\end{document}
