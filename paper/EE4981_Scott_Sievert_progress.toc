@@ -1,7 +1,0 @@
-\contentsline {section}{\numberline {1}Introduction}{2}{section.1}
-\contentsline {section}{\numberline {2}Backend}{2}{section.2}
-\contentsline {section}{\numberline {3}Human data}{2}{section.3}
-\contentsline {section}{\numberline {4}Previous work}{3}{section.4}
-\contentsline {section}{\numberline {5}Next steps}{3}{section.5}
-\contentsline {section}{\numberline {6}Timeline and budget updates}{3}{section.6}
-\contentsline {section}{\numberline {7}Conclusion}{3}{section.7}

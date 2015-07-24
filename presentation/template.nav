@@ -9,8 +9,16 @@
 \headcommand {\beamer@framepages {4}{4}}
 \headcommand {\slideentry {0}{0}{5}{5/5}{}{0}}
 \headcommand {\beamer@framepages {5}{5}}
-\headcommand {\beamer@partpages {1}{5}}
-\headcommand {\beamer@subsectionpages {1}{5}}
-\headcommand {\beamer@sectionpages {1}{5}}
-\headcommand {\beamer@documentpages {5}}
-\headcommand {\def \inserttotalframenumber {5}}
+\headcommand {\slideentry {0}{0}{6}{7/7}{}{0}}
+\headcommand {\beamer@framepages {7}{7}}
+\headcommand {\slideentry {0}{0}{7}{8/8}{}{0}}
+\headcommand {\beamer@framepages {8}{8}}
+\headcommand {\slideentry {0}{0}{8}{9/9}{}{0}}
+\headcommand {\beamer@framepages {9}{9}}
+\headcommand {\slideentry {0}{0}{9}{10/11}{}{0}}
+\headcommand {\beamer@framepages {10}{11}}
+\headcommand {\beamer@partpages {1}{11}}
+\headcommand {\beamer@subsectionpages {1}{11}}
+\headcommand {\beamer@sectionpages {1}{11}}
+\headcommand {\beamer@documentpages {11}}
+\headcommand {\def \inserttotalframenumber {9}}

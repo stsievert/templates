@@ -1,6 +1,6 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  19 APR 2015 18:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  1 JUN 2015 14:10
 entering extended mode
- restricted \write18 enabled.
+ \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
 **template.tex
@@ -626,6 +626,9 @@ Package: animfp 2009/07/23 fixed point addition for animate.sty
 \@anim@curfield=\count181
 \@anim@begin=\toks45
 \@anim@end=\toks46
+) (/usr/local/texlive/2014/texmf-dist/tex/latex/beamer/multimedia/multimedia.sty
+Package: multimedia 2012/05/02 ver 0.02
+\mm@movie=\count182
 ) (/usr/local/texlive/2014/texmf-dist/tex/latex/beamer/themes/theme/beamerthemeBoadilla.sty
 Package: beamerthemeBoadilla 2010/06/17  (rcs-revision d02a7cf4d8ae)
 (/usr/local/texlive/2014/texmf-dist/tex/latex/beamer/themes/color/beamercolorthemerose.sty
@@ -647,7 +650,7 @@ Package: xkeyval 2014/05/09 v2.6d package option processing (HA)
 (/usr/local/texlive/2014/texmf-dist/tex/generic/xkeyval/xkeyval.tex
 \XKV@toks=\toks47
 \XKV@tempa@toks=\toks48
-\XKV@depth=\count182
+\XKV@depth=\count183
 File: xkeyval.tex 2014/05/09 v2.6d key=value parser (HA)
 )) (/usr/local/texlive/2014/texmf-dist/tex/latex/base/textcomp.sty
 Package: textcomp 2005/09/27 v1.99g Standard LaTeX package
@@ -745,36 +748,36 @@ LaTeX Info: Redefining \scshape on input line 37.
 )
 LaTeX Info: Redefining \oldstylenums on input line 477.
 (/usr/local/texlive/2014/texmf-dist/tex/latex/libertine/LinLibertine_I.tex))
-\c@mydef=\count183
+\c@mydef=\count184
 (./template.aux)
 \openout1 = `template.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 44.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 44.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 50.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 50.
 (/usr/local/texlive/2014/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Try loading font information for OT1+LinuxBiolinumT-TLF on input line 44.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Try loading font information for OT1+LinuxBiolinumT-TLF on input line 50.
 (/usr/local/texlive/2014/texmf-dist/tex/latex/libertine/OT1LinuxBiolinumT-TLF.fd
 File: OT1LinuxBiolinumT-TLF.fd 2012/11/26 (autoinst) Font definitions for OT1/LinuxBiolinumT-TLF.
 )
 LaTeX Font Info:    Font shape `OT1/LinuxBiolinumT-TLF/m/n' will be
-(Font)              scaled to size 10.95pt on input line 44.
+(Font)              scaled to size 10.95pt on input line 50.
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -821,63 +824,63 @@ Package grfext Info: Graphics extension search list:
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 )) ABD: EveryShipout initializing macros
 \AtBeginShipoutBox=\box55
-Package hyperref Info: Link coloring OFF on input line 44.
+Package hyperref Info: Link coloring OFF on input line 50.
 (/usr/local/texlive/2014/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 (/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count184
+\c@section@level=\count185
 )
-LaTeX Info: Redefining \ref on input line 44.
-LaTeX Info: Redefining \pageref on input line 44.
-LaTeX Info: Redefining \nameref on input line 44.
+LaTeX Info: Redefining \ref on input line 50.
+LaTeX Info: Redefining \pageref on input line 50.
+LaTeX Info: Redefining \nameref on input line 50.
 (./template.out) (./template.out)
 \@outlinefile=\write5
 \openout5 = `template.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 44.
+(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 50.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 44.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 50.
 \symnumbers=\mathgroup6
 \sympureletters=\mathgroup7
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/LinuxLibertineT-TLF/m/n on input line 44.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 44.
+(Font)                  OT1/cmss/m/n --> OT1/LinuxLibertineT-TLF/m/n on input line 50.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 50.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> OT1/LinuxBiolinumT-TLF/bx/n on input line 44.
+(Font)                  OT1/cmr/bx/n --> OT1/LinuxBiolinumT-TLF/bx/n on input line 50.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/LinuxBiolinumT-TLF/bx/n on input line 44.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 44.
+(Font)                  OT1/cmr/bx/n --> OT1/LinuxBiolinumT-TLF/bx/n on input line 50.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 50.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/LinuxBiolinumT-TLF/m/n on input line 44.
+(Font)                  OT1/cmss/m/n --> OT1/LinuxBiolinumT-TLF/m/n on input line 50.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/LinuxBiolinumT-TLF/m/n on input line 44.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 44.
+(Font)                  OT1/cmss/bx/n --> OT1/LinuxBiolinumT-TLF/m/n on input line 50.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 50.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> OT1/LinuxBiolinumT-TLF/m/it on input line 44.
+(Font)                  OT1/cmr/m/it --> OT1/LinuxBiolinumT-TLF/m/it on input line 50.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> OT1/LinuxBiolinumT-TLF/m/it on input line 44.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 44.
+(Font)                  OT1/cmr/bx/it --> OT1/LinuxBiolinumT-TLF/m/it on input line 50.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 50.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> OT1/LinuxLibertineMonoT-TLF/m/n on input line 44.
+(Font)                  OT1/cmtt/m/n --> OT1/LinuxLibertineMonoT-TLF/m/n on input line 50.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/LinuxLibertineMonoT-TLF/m/n on input line 44.
+(Font)                  OT1/cmtt/m/n --> OT1/LinuxLibertineMonoT-TLF/m/n on input line 50.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  OT1/LinuxBiolinumT-TLF/m/n --> OT1/LinuxBiolinumT-TLF/bx/n on input line 44.
+(Font)                  OT1/LinuxBiolinumT-TLF/m/n --> OT1/LinuxBiolinumT-TLF/bx/n on input line 50.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  OT1/LinuxBiolinumT-TLF/m/it --> OT1/LinuxBiolinumT-TLF/bx/it on input line 44.
+(Font)                  OT1/LinuxBiolinumT-TLF/m/it --> OT1/LinuxBiolinumT-TLF/bx/it on input line 50.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/LinuxLibertineT-TLF/bx/n on input line 44.
+(Font)                  OT1/cmss/bx/n --> OT1/LinuxLibertineT-TLF/bx/n on input line 50.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/LinuxBiolinumT-TLF/bx/n --> OT1/LinuxBiolinumT-TLF/bx/n on input line 44.
+(Font)                  OT1/LinuxBiolinumT-TLF/bx/n --> OT1/LinuxBiolinumT-TLF/bx/n on input line 50.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/LinuxBiolinumT-TLF/m/n --> OT1/LinuxBiolinumT-TLF/bx/n on input line 44.
+(Font)                  OT1/LinuxBiolinumT-TLF/m/n --> OT1/LinuxBiolinumT-TLF/bx/n on input line 50.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/LinuxBiolinumT-TLF/m/it --> OT1/LinuxBiolinumT-TLF/bx/it on input line 44.
+(Font)                  OT1/LinuxBiolinumT-TLF/m/it --> OT1/LinuxBiolinumT-TLF/bx/it on input line 50.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/LinuxLibertineMonoT-TLF/m/n --> OT1/LinuxLibertineMonoT-TLF/bx/n on input line 44.
+(Font)                  OT1/LinuxLibertineMonoT-TLF/m/n --> OT1/LinuxLibertineMonoT-TLF/bx/n on input line 50.
 (/usr/local/texlive/2014/texmf-dist/tex/latex/beamer/translator/dicts/translator-basic-dictionary/translator-basic-dictionary-English.dict
 Dictionary: translator-basic-dictionary, Language: English 
 ) (/usr/local/texlive/2014/texmf-dist/tex/latex/beamer/translator/dicts/translator-bibliography-dictionary/translator-bibliography-dictionary-English.dict
@@ -891,67 +894,84 @@ Dictionary: translator-numbers-dictionary, Language: English
 ) (/usr/local/texlive/2014/texmf-dist/tex/latex/beamer/translator/dicts/translator-theorem-dictionary/translator-theorem-dictionary-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 )
-LaTeX Info: Redefining \includegraphics on input line 44.
-\c@mv@tabular=\count185
-\c@mv@boldtabular=\count186
+LaTeX Info: Redefining \includegraphics on input line 50.
+\c@mv@tabular=\count186
+\c@mv@boldtabular=\count187
 (./template.nav)
 LaTeX Font Info:    Font shape `OT1/LinuxBiolinumT-TLF/m/n' will be
-(Font)              scaled to size 6.0pt on input line 44.
+(Font)              scaled to size 6.0pt on input line 50.
 LaTeX Font Info:    Font shape `OT1/LinuxBiolinumT-TLF/bx/n' in size <6> not available
-(Font)              Font shape `OT1/LinuxBiolinumT-TLF/b/n' tried instead on input line 44.
+(Font)              Font shape `OT1/LinuxBiolinumT-TLF/b/n' tried instead on input line 50.
 LaTeX Font Info:    Font shape `OT1/LinuxBiolinumT-TLF/b/n' will be
-(Font)              scaled to size 6.0pt on input line 44.
+(Font)              scaled to size 6.0pt on input line 50.
 LaTeX Font Info:    Font shape `OT1/LinuxBiolinumT-TLF/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/LinuxBiolinumT-TLF/b/n' tried instead on input line 45.
+(Font)              Font shape `OT1/LinuxBiolinumT-TLF/b/n' tried instead on input line 51.
 LaTeX Font Info:    Font shape `OT1/LinuxBiolinumT-TLF/b/n' will be
-(Font)              scaled to size 10.95pt on input line 45.
+(Font)              scaled to size 10.95pt on input line 51.
 LaTeX Font Info:    Font shape `OT1/LinuxBiolinumT-TLF/bx/n' in size <14.4> not available
-(Font)              Font shape `OT1/LinuxBiolinumT-TLF/b/n' tried instead on input line 45.
+(Font)              Font shape `OT1/LinuxBiolinumT-TLF/b/n' tried instead on input line 51.
 LaTeX Font Info:    Font shape `OT1/LinuxBiolinumT-TLF/b/n' will be
-(Font)              scaled to size 14.4pt on input line 45.
+(Font)              scaled to size 14.4pt on input line 51.
 LaTeX Font Info:    Font shape `OT1/LinuxBiolinumT-TLF/m/n' will be
-(Font)              scaled to size 8.0pt on input line 45.
+(Font)              scaled to size 8.0pt on input line 51.
 LaTeX Font Info:    Font shape `OT1/LinuxBiolinumT-TLF/bx/n' in size <4> not available
-(Font)              Font shape `OT1/LinuxBiolinumT-TLF/b/n' tried instead on input line 45.
+(Font)              Font shape `OT1/LinuxBiolinumT-TLF/b/n' tried instead on input line 51.
 LaTeX Font Info:    Font shape `OT1/LinuxBiolinumT-TLF/b/n' will be
-(Font)              scaled to size 4.0pt on input line 45.
+(Font)              scaled to size 4.0pt on input line 51.
 LaTeX Font Info:    Font shape `OT1/LinuxBiolinumT-TLF/m/n' will be
-(Font)              scaled to size 4.0pt on input line 45.
+(Font)              scaled to size 4.0pt on input line 51.
 [1
 
 {/usr/local/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] <./figures/boot/boot-0.png> <./figures/boot/boot-1.png> <./figures/boot/boot-2.png> <./figures/boot/boot-3.png> <./figures/boot/boot-4.png> <./figures/boot/boot-5.png> <./figures/boot/boot-6.png> <./figures/boot/boot-7.png> <./figures/boot/boot-8.png> <./figures/boot/boot-9.png> <./figures/boot/boot-10.png> <./figures/boot/boot-11.png> <./figures/boot/boot-12.png> <./figures/boot/boot-13.png> <./figures/boot/boot-14.png> <./figures/boot/boot-15.png> <./figures/boot/boot-16.png> <./figures/boot/boot-17.png> <./figures/boot/boot-18.png> <./figures/boot/boot-19.png> <./figures/boot/boot-20.png> <./figures/boot/boot-21.png> <./figures/boot/boot-22.png> <./figures/boot/boot-23.png> <./figures/boot/boot-24.png> <./figures/boot/boot-25.png> <./figures/boot/boot-26.png> <./figures/boot/boot-27.png> <./figures/boot/boot-28.png> <./figures/boot/boot-29.png> <./figures/boot/boot-30.png> [2
 
+] [3
+
 ]
 LaTeX Font Info:    Font shape `OT1/LinuxBiolinumT-TLF/bx/n' in size <8> not available
-(Font)              Font shape `OT1/LinuxBiolinumT-TLF/b/n' tried instead on input line 68.
+(Font)              Font shape `OT1/LinuxBiolinumT-TLF/b/n' tried instead on input line 82.
 LaTeX Font Info:    Font shape `OT1/LinuxBiolinumT-TLF/b/n' will be
-(Font)              scaled to size 8.0pt on input line 68.
-LaTeX Font Info:    Try loading font information for U+msa on input line 68.
+(Font)              scaled to size 8.0pt on input line 82.
+LaTeX Font Info:    Try loading font information for U+msa on input line 82.
 (/usr/local/texlive/2014/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 68.
+LaTeX Font Info:    Try loading font information for U+msb on input line 82.
 (/usr/local/texlive/2014/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Font shape `OT1/LinuxBiolinumT-TLF/m/n' will be
-(Font)              scaled to size 5.0pt on input line 68.
+(Font)              scaled to size 5.0pt on input line 82.
 LaTeX Font Info:    Font shape `OT1/LinuxBiolinumT-TLF/m/it' will be
-(Font)              scaled to size 8.0pt on input line 68.
+(Font)              scaled to size 8.0pt on input line 82.
 LaTeX Font Info:    Font shape `OT1/LinuxBiolinumT-TLF/m/it' will be
-(Font)              scaled to size 6.0pt on input line 68.
+(Font)              scaled to size 6.0pt on input line 82.
 LaTeX Font Info:    Font shape `OT1/LinuxBiolinumT-TLF/m/it' will be
-(Font)              scaled to size 5.0pt on input line 68.
-[3
-
-]
-LaTeX Font Info:    Font shape `OT1/LinuxBiolinumT-TLF/m/it' will be
-(Font)              scaled to size 10.95pt on input line 76.
+(Font)              scaled to size 5.0pt on input line 82.
 [4
 
+] [5
+
 ]
-Package atenddvi Info: Last page = 5.
-[5
+LaTeX Font Info:    Font shape `OT1/LinuxBiolinumT-TLF/m/n' will be
+(Font)              scaled to size 10.0pt on input line 88.
+LaTeX Font Info:    Font shape `OT1/LinuxBiolinumT-TLF/m/n' will be
+(Font)              scaled to size 9.0pt on input line 88.
+[6
+
+]
+LaTeX Font Info:    Font shape `OT1/LinuxBiolinumT-TLF/m/it' will be
+(Font)              scaled to size 10.95pt on input line 96.
+[7
+
+] [8
+
+] [9
+
+] [10
+
+]
+Package atenddvi Info: Last page = 11.
+[11
 
 ]
 \tf@nav=\write6
@@ -963,28 +983,28 @@ Package atenddvi Info: Last page = 5.
 \tf@snm=\write8
 \openout8 = `template.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 85.
-Package atveryend Info: Executing hook `AfterLastShipout' on input line 85.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 122.
+Package atveryend Info: Executing hook `AfterLastShipout' on input line 122.
 (./template.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 85.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 85.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 122.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 122.
 Package rerunfilecheck Info: File `template.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 85.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 122.
  ) 
 Here is how much of TeX's memory you used:
- 19316 strings out of 493117
- 368892 string characters out of 6135433
- 434530 words of memory out of 5000000
- 22260 multiletter control sequences out of 15000+600000
- 29977 words of font info for 57 fonts, out of 8000000 for 9000
+ 19490 strings out of 493117
+ 372476 string characters out of 6135433
+ 436160 words of memory out of 5000000
+ 22414 multiletter control sequences out of 15000+600000
+ 33161 words of font info for 61 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  56i,16n,61p,407b,650s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/libertine/lbtn_c6xmqr.enc}</usr/local/texlive/2014/texmf-dist/fonts/type1/public/libertine/LinBiolinumT.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/libertine/LinBiolinumTB.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/libertine/LinBiolinumTI.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on template.pdf (5 pages, 1312306 bytes).
+Output written on template.pdf (11 pages, 1321508 bytes).
 PDF statistics:
- 309 PDF objects out of 1000 (max. 8388607)
- 157 compressed objects within 2 object streams
- 11 named destinations out of 1000 (max. 500000)
- 602 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 351 PDF objects out of 1000 (max. 8388607)
+ 192 compressed objects within 2 object streams
+ 23 named destinations out of 1000 (max. 500000)
+ 606 words of extra memory for PDF output out of 10000 (max. 10000000)
 

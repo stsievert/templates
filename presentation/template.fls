@@ -1,4 +1,4 @@
-PWD /Users/scott/Classes/templates/present
+PWD /Users/scott/Classes/templates/presentation
 INPUT /usr/local/texlive/2014/texmf.cnf
 INPUT /usr/local/texlive/2014/texmf-dist/web2c/texmf.cnf
 INPUT /usr/local/texlive/2014/texmf-var/web2c/pdftex/pdflatex.fmt
@@ -247,6 +247,8 @@ INPUT /usr/local/texlive/2014/texmf-dist/tex/latex/animate/animfp.sty
 INPUT /usr/local/texlive/2014/texmf-dist/tex/latex/animate/animfp.sty
 INPUT /usr/local/texlive/2014/texmf-dist/tex/context/base/supp-pdf.mkii
 INPUT /usr/local/texlive/2014/texmf-dist/tex/context/base/supp-pdf.mkii
+INPUT /usr/local/texlive/2014/texmf-dist/tex/latex/beamer/multimedia/multimedia.sty
+INPUT /usr/local/texlive/2014/texmf-dist/tex/latex/beamer/multimedia/multimedia.sty
 INPUT /usr/local/texlive/2014/texmf-dist/tex/latex/beamer/themes/theme/beamerthemeBoadilla.sty
 INPUT /usr/local/texlive/2014/texmf-dist/tex/latex/beamer/themes/theme/beamerthemeBoadilla.sty
 INPUT /usr/local/texlive/2014/texmf-dist/tex/latex/beamer/themes/color/beamercolorthemerose.sty
@@ -457,6 +459,7 @@ INPUT figures/boot/boot-30.png
 INPUT ./figures/boot/boot-30.png
 INPUT ./figures/boot/boot-30.png
 INPUT ./figures/boot/boot-30.png
+INPUT ./figures/movie.mp4
 INPUT /usr/local/texlive/2014/texmf-dist/fonts/tfm/public/libertine/LinBiolinumTB-tlf-ot1.tfm
 INPUT /usr/local/texlive/2014/texmf-dist/fonts/tfm/public/cm/cmss8.tfm
 INPUT /usr/local/texlive/2014/texmf-dist/fonts/tfm/public/cm/cmss8.tfm
@@ -482,6 +485,12 @@ INPUT /usr/local/texlive/2014/texmf-dist/fonts/tfm/public/libertine/LinBiolinumT
 INPUT /usr/local/texlive/2014/texmf-dist/fonts/tfm/public/libertine/LinBiolinumTI-tlf-ot1.tfm
 INPUT /usr/local/texlive/2014/texmf-dist/fonts/tfm/public/libertine/LinBiolinumTI-tlf-ot1.tfm
 INPUT /usr/local/texlive/2014/texmf-dist/fonts/tfm/public/libertine/LinBiolinumTI-tlf-ot1.tfm
+INPUT /usr/local/texlive/2014/texmf-dist/fonts/tfm/public/libertine/LinBiolinumT-tlf-ot1.tfm
+INPUT /usr/local/texlive/2014/texmf-dist/fonts/tfm/public/libertine/LinBiolinumT-tlf-ot1.tfm
+INPUT /usr/local/texlive/2014/texmf-dist/fonts/vf/public/libertine/LinBiolinumT-tlf-ot1.vf
+INPUT /usr/local/texlive/2014/texmf-dist/fonts/tfm/public/libertine/LinBiolinumT-tlf-ot1--base.tfm
+INPUT /usr/local/texlive/2014/texmf-dist/fonts/vf/public/libertine/LinBiolinumT-tlf-ot1.vf
+INPUT /usr/local/texlive/2014/texmf-dist/fonts/tfm/public/libertine/LinBiolinumT-tlf-ot1--base.tfm
 INPUT /usr/local/texlive/2014/texmf-dist/fonts/tfm/public/libertine/LinBiolinumTI-tlf-ot1.tfm
 INPUT /usr/local/texlive/2014/texmf-dist/fonts/vf/public/libertine/LinBiolinumTI-tlf-ot1.vf
 INPUT /usr/local/texlive/2014/texmf-dist/fonts/tfm/public/libertine/LinBiolinumTI-tlf-ot1--base.tfm
