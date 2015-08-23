@@ -6,43 +6,27 @@
 % Look at the Beamer documentation[1] first!
 % [1]:http://mirrors.concertpass.com/tex-archive/macros/latex/contrib/beamer/doc/beameruserguide.pdf
 
+%\usepackage[notes]{osx-adobe-beamer}
+
 \title[An alternate title]{A presentation}
 \author{Scott Sievert}
 \institute{University of Wisconsin-Madison}
 \date{April 29, 1992}
 
 % Themes
-\usetheme{Boadilla}
+%\usetheme{Boadilla}
+\usetheme{default}
 \usecolortheme{sidebartab}
-\usefonttheme{structurebold} 
 \setbeamertemplate{itemize items}[default]
 \setbeamertemplate{enumerate items}[default]
 \setbeameroption{show notes}
+\usefonttheme{professionalfonts}
 
-% change the footer. Make my name shorter, don't include institution, remove date
-\makeatother
-\setbeamertemplate{footline}{
-    \leavevmode%
-    \hbox{%
-    \begin{beamercolorbox}[wd=.4\paperwidth,ht=2.25ex,dp=1ex,center]{author in head/foot}%
-        \usebeamerfont{author in head/foot}\insertshortauthor
-    \end{beamercolorbox}%
-    \begin{beamercolorbox}[wd=.6\paperwidth,ht=2.25ex,dp=1ex,center]{title in head/foot}%
-        \usebeamerfont{title in head/foot}\insertshorttitle\hspace*{3em}
-        \insertframenumber{} / \inserttotalframenumber\hspace*{1ex}
-    \end{beamercolorbox}}%
-    \vskip0pt%
-}
-\makeatletter
+% Remove the navigation options; I'm controlling the presentation!
 \setbeamertemplate{navigation symbols}{}
 
-% Fonts. Uncomment these if you want
-%\usepackage{tgheros}
-%\usepackage{tgadventor}
-\usepackage{libertine}
-%\usepackage[T1]{fontenc}
-
-%\usepackage[notes]{osx-adobe-beamer}
+% Silence font errors (found on SO)
+\usepackage{lmodern}
 
 % For defining theorems
 \newtheorem{mydef}{Golden ratio}
@@ -52,7 +36,7 @@
 
 \begin{frame}
     \frametitle{Animations}
-    % PNG sequence generated with 
+    % PNG sequence generated with
     % gifsicle --unoptimize figures/boot.gif | convert - figures/boot/boot-%d.png
     % HINTS:
     %   * remove --unoptimize flag if you get warning
@@ -62,9 +46,9 @@
 \end{frame}
 
 \begin{frame}
+    \frametitle{video}
     % Can also specify opening image in \movie[]{opening image here}{movie.mp4}
     % Don't include argument poster then
-    \frametitle{video}
     \movie[width=0.8\textwidth,height=0.4\textwidth, borderwidth=0cm, poster]
         {}{figures/movie.mp4}
 \end{frame}
