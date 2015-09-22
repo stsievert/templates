@@ -21,30 +21,38 @@
 % ### NOTES
 % * `\begin{align}` works in the IPython notebook but fails on compilation;
 %   use `\begin{aligned}` instead (because you're in math mode)
-% * I ran into issues with mixing math mode and \textrm. I had to escape outside
-%   of math mode -- instead of $...\textrm{ }...$ I used $...$ text $...$
+% * I ran into an issue defining variables in the notebook then using that command while
+%   using nbconvert. I got around that by defining the commands in a single "raw nbconvert"
+%   cell and commenting/uncommenting $$ if using nbconvert.
+% * When reopening the notebook, I had to edit the cell to use the latex function again.
+% * I ran into issues where I had leading spaces before/after a ending/beginning $
+%       (same for newlines and $$)
 % * I ran into issues mixing math in section headings. Find a way not to include
 %   math in titles; it's the nicest solution (kind of like math and emails)
-% 
+% * I ran into issues with mixing math mode and \textrm. I had to escape outside
+%   of math mode -- instead of $...\textrm{ }...$ I used $...$ text $...$
+%
 % PYTHON code generated with command
 % ipython nbconvert --to python filename.ipynb
 
 ((* block title *))
 \author{Scott Sievert\\
-    \href{mailto:sieve121@umn.edu}{\texttt{sieve121@umn.edu}}\\
-    4058570
+    \href{mailto:stsievert@wisc.edu}{\texttt{stsievert@wisc.edu}}
 }
-\title{Homework 3}
+\title{Lab 1}
 \date{ }
+\setcounter{tocdepth}{2}
 \makeatletter
 \def\maketitle{%
 \begin{center}
-   ~\vspace{25em}\\
-   \textbf{\huge EE5393: Circuits, Computation and Biology}\\~\\~\\
+   ~\vspace{0em}\\
+   \textbf{\huge ECE 533: Image processing}\\~\\~\\
    \textbf{\Large \@title}\\~\\%
    {\@author}%
+    %\vspace{5em}
+    \vfill
    \thispagestyle{empty}
-   \newpage
+   %\newpage
 
    \tableofcontents
    \thispagestyle{empty}
@@ -52,6 +60,7 @@
    \makeatother
 \end{center}
 }
+
 ((* endblock title *))
 
 ((* block docclass *))
