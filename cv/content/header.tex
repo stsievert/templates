@@ -1,0 +1,51 @@
+%\include{content/header.tex}
+%\include{content/header.tex}
+%from http://linux.dsplabs.com.au/resume-writing-example-latex-template-linux-curriculum-vitae-professional-cv-layout-format-text-p54/
+% ---------------------------------------------
+% CV for Scott Sievert, (sieve121@umn.edu)
+\usepackage{hyperref}
+\usepackage[usenames,dvipsnames]{xcolor}
+\usepackage{tabularx}
+\usepackage{graphicx}
+% setup the PDF
+\hypersetup{
+    unicode=false,                % non-Latin characters in Acrobat’s bookmarks
+    pdftoolbar=true,              % show Acrobat’s toolbar?
+    pdfmenubar=true,              % show Acrobat’s menu?
+    pdffitwindow=false,           % window fit to page when opened
+    pdfstartview={FitH},          % fits the width of the page to the window
+    pdftitle={CV},                % title
+    pdfauthor={Scott Sievert},    % author
+    pdfsubject={},                % subject of the document
+    pdfcreator={Scott Sievert},   % creator of the document
+    pdfproducer={Scott Sievert},  % producer of the document
+    pdfkeywords={compressed sensing,} {research,} {adaptive sampling,}, % list of keywords
+    pdfnewwindow=true,            % links in new window
+    colorlinks=true,              % false: boxed links; true: colored links
+    linkcolor=red,                % color of internal links
+    citecolor=green,              % color of links to bibliography
+    filecolor=magenta,            % color of file links
+    urlcolor=NavyBlue             % color of external links
+}
+
+\newcommand{\homePage}{http://scottsievert.com}
+
+\name{\Large  \hspace{4.5em} \href{\homePage}{{\textcolor{Black}{Scott Sievert}}}}
+
+\newcommand{\mysidestyle}[1]{
+    \small\sc #1
+}
+
+\newcommand{\tab}{\hspace{.05\textwidth}}
+
+\newcommand{\SSsection}[1]{\section{\mysidestyle{#1}}}
+
+\newcommand{\SSsubsection}[3]{
+    \textbf{#1}\\\vspace{0.1em}
+    \hspace{-0.3em}\textsl{#2} \hfill \textbf{#3}\\
+}
+
+\usepackage[backend=bibtex, defernumbers=true, style=numeric]{biblatex}
+\bibliography{content/refs}
+
+\usepackage{setspace}

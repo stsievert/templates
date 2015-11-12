@@ -20,4 +20,9 @@ interactive widget. It also includes (in my opinion) the simplest framework
 for making static interactive online widgets that can go on a web page
 (example shown with widget.html).
 
+## CV
+I provide a template for my resume/CV. The output can be viewed at
+[cv/Scott_Sievert_CV.pdf]
+
+[cv/Scott_Sievert_CV.pdf]:cv/Scott_Sievert_CV.pdf
 [osx-beamer-presentation]:https://github.com/scottsievert/osx-adobe-beamer
