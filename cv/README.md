@@ -1,3 +1,19 @@
+
+## How to compile
+After install LaTeX, run these commands from this directory:
+
+```shell
+# simplest option
+latexmk Scott_Sievert_CV
+
+# alternative
+pdflatex Scott_Sievert_CV
+pdflatex Scott_Sievert_CV
+bibtex Scott_Sievert_CV
+pdflatex Scott_Sievert_CV
+```
+
+## File structure
 * Example can be viewed in [Scott_Sievert_CV.pdf]
 * The content (the header, various links, content) can be viewed in [content/].
   These files are included in [Scott_Sievert_CV.tex].
