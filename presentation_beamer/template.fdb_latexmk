@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1440365122 "template.tex" "template.pdf" "template" 1440365127
+["pdflatex"] 1448670699 "template.tex" "template.pdf" "template" 1448670702
   "/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc" 1202520719 2405 5dcf2c1b967ee25cc46c58cd52244aed ""
   "/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc" 1202520719 2840 216e6e45ad352e2456e1149f28885bee ""
   "/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc" 1202520719 2327 9d6df24f9c4f7368395224341a95523a ""
@@ -234,15 +234,15 @@
   "figures/boot/boot-8.png" 1425699567 39136 f013a93d0c53a3ffa9353a27f8a4c65e ""
   "figures/boot/boot-9.png" 1425699567 37745 977c30de172ee8c603b0ab393fac78f6 ""
   "figures/movie.mp4" 1418517129 1404343 472f5114f95ebcdeb921643865b56ea5 ""
-  "template.aux" 1440365126 2352 1954c8f6201ea2cf7b5dffb7a225f83f ""
-  "template.nav" 1440365126 1058 b9d8a43f23a6e6b52dacb3a3a2557f4e ""
-  "template.out" 1440365124 0 d41d8cd98f00b204e9800998ecf8427e ""
-  "template.tex" 1440365122 2708 282272845cfdfe726558096e2984aab3 ""
+  "template.aux" 1448670702 2352 1954c8f6201ea2cf7b5dffb7a225f83f ""
+  "template.nav" 1448670702 1058 b9d8a43f23a6e6b52dacb3a3a2557f4e ""
+  "template.out" 1448670700 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "template.tex" 1440365223 2571 6674fdc73980cd247deb36d8ebb5d6f7 ""
   (generated)
-  "template.out"
   "template.aux"
+  "template.out"
   "template.nav"
+  "template.pdf"
   "template.log"
   "template.snm"
-  "template.pdf"
   "template.toc"

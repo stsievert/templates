@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  23 AUG 2015 16:25
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  27 NOV 2015 18:31
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -672,21 +672,21 @@ LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (./template.aux)
 \openout1 = `template.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Try loading font information for OT1+lmss on input line 39.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Try loading font information for OT1+lmss on input line 34.
 (/usr/local/texlive/2014/texmf-dist/tex/latex/lm/ot1lmss.fd
 File: ot1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
@@ -736,7 +736,7 @@ Package grfext Info: Graphics extension search list:
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 )) ABD: EveryShipout initializing macros
 \AtBeginShipoutBox=\box55
-Package hyperref Info: Link coloring OFF on input line 39.
+Package hyperref Info: Link coloring OFF on input line 34.
 (/usr/local/texlive/2014/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 (/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
@@ -744,9 +744,9 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count184
 )
-LaTeX Info: Redefining \ref on input line 39.
-LaTeX Info: Redefining \pageref on input line 39.
-LaTeX Info: Redefining \nameref on input line 39.
+LaTeX Info: Redefining \ref on input line 34.
+LaTeX Info: Redefining \pageref on input line 34.
+LaTeX Info: Redefining \nameref on input line 34.
 (./template.out) (./template.out)
 \@outlinefile=\write5
 \openout5 = `template.out'.
@@ -764,7 +764,7 @@ Dictionary: translator-numbers-dictionary, Language: English
 ) (/usr/local/texlive/2014/texmf-dist/tex/latex/beamer/translator/dicts/translator-theorem-dictionary/translator-theorem-dictionary-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 )
-LaTeX Info: Redefining \includegraphics on input line 39.
+LaTeX Info: Redefining \includegraphics on input line 34.
 (./template.nav) [1
 
 {/usr/local/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] <./figures/boot/boot-0.png> <./figures/boot/boot-1.png> <./figures/boot/boot-2.png> <./figures/boot/boot-3.png> <./figures/boot/boot-4.png> <./figures/boot/boot-5.png> <./figures/boot/boot-6.png> <./figures/boot/boot-7.png> <./figures/boot/boot-8.png> <./figures/boot/boot-9.png> <./figures/boot/boot-10.png> <./figures/boot/boot-11.png> <./figures/boot/boot-12.png> <./figures/boot/boot-13.png> <./figures/boot/boot-14.png> <./figures/boot/boot-15.png> <./figures/boot/boot-16.png> <./figures/boot/boot-17.png> <./figures/boot/boot-18.png> <./figures/boot/boot-19.png> <./figures/boot/boot-20.png> <./figures/boot/boot-21.png> <./figures/boot/boot-22.png> <./figures/boot/boot-23.png> <./figures/boot/boot-24.png> <./figures/boot/boot-25.png> <./figures/boot/boot-26.png> <./figures/boot/boot-27.png> <./figures/boot/boot-28.png> <./figures/boot/boot-29.png> <./figures/boot/boot-30.png> [2
@@ -772,33 +772,33 @@ LaTeX Info: Redefining \includegraphics on input line 39.
 ] [3
 
 ]
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 71.
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 66.
 (/usr/local/texlive/2014/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 71.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 66.
 (/usr/local/texlive/2014/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 71.
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 66.
 (/usr/local/texlive/2014/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 71.
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 66.
 (/usr/local/texlive/2014/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 71.
+(Font)              <8> on input line 66.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 71.
+(Font)              <6> on input line 66.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 71.
-LaTeX Font Info:    Try loading font information for U+msa on input line 71.
+(Font)              <5> on input line 66.
+LaTeX Font Info:    Try loading font information for U+msa on input line 66.
 (/usr/local/texlive/2014/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 71.
+LaTeX Font Info:    Try loading font information for U+msb on input line 66.
 (/usr/local/texlive/2014/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [4
@@ -809,12 +809,12 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 ]
 LaTeX Font Info:    Font shape `OT1/lmss/m/it' in size <10.95> not available
-(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 85.
+(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 80.
 [7
 
 ]
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 92.
+(Font)              <10.95> on input line 87.
 [8
 
 ] [9
@@ -835,14 +835,14 @@ Package atenddvi Info: Last page = 11.
 \tf@snm=\write8
 \openout8 = `template.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 111.
-Package atveryend Info: Executing hook `AfterLastShipout' on input line 111.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 106.
+Package atveryend Info: Executing hook `AfterLastShipout' on input line 106.
 (./template.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 111.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 111.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 106.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 106.
 Package rerunfilecheck Info: File `template.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 111.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 106.
  ) 
 Here is how much of TeX's memory you used:
  17714 strings out of 493117
@@ -853,7 +853,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  56i,11n,61p,407b,558s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}</usr/local/texlive/2014/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/lm/lmss10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/lm/lmss12.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/lm/lmss8.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/lm/lmss9.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/lm/lmsso10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on template.pdf (11 pages, 1303356 bytes).
+Output written on template.pdf (11 pages, 1301889 bytes).
 PDF statistics:
  346 PDF objects out of 1000 (max. 8388607)
  189 compressed objects within 2 object streams

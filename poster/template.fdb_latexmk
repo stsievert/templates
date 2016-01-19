@@ -1,13 +1,13 @@
 # Fdb version 3
-["bibtex template"] 1430325830 "template.aux" "template.bbl" "template" 1430329291
+["bibtex template"] 1430325830 "template.aux" "template.bbl" "template" 1448671360
   "./ieee.bst" 1381517058 19623 f9cd22458ca68af2567100f1aed905e8 ""
   "refs.bib" 1422811486 1277 26df6f0ec81020c7da42243388819e34 ""
-  "template.aux" 1430329290 1102 546aaf7b40c44c20ad8231093df87937 ""
+  "template.aux" 1448671359 1102 546aaf7b40c44c20ad8231093df87937 ""
   "template.bcf" 0 -1 0 ""
   (generated)
   "template.bbl"
   "template.blg"
-["pdflatex"] 1430329287 "template.tex" "template.pdf" "template" 1430329291
+["pdflatex"] 1448671356 "template.tex" "template.pdf" "template" 1448671360
   "/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1136849721 2971 def0b6c1f0b107b3b936def894055589 ""
   "/usr/local/texlive/2014/texmf-dist/fonts/map/fontname/texfonts.map" 1272929888 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "/usr/local/texlive/2014/texmf-dist/fonts/tfm/jknappen/ec/ecrm1000.tfm" 1136768653 3584 adb004a0c8e7c46ee66cad73671f37b4 ""
@@ -214,11 +214,11 @@
   "figures/wiki3.jpg" 1422739272 63831 3f865c86cd97f2b3ead884f87facef3a ""
   "logo-eps-converted-to.pdf" 1330195640 58530 db3d738a512b679872bf3d2fa04c3d51 ""
   "smile.sty" 1422730322 8522 f030dd6345d94152c0146e9068da0bd5 ""
-  "template.aux" 1430329290 1102 546aaf7b40c44c20ad8231093df87937 ""
+  "template.aux" 1448671359 1102 546aaf7b40c44c20ad8231093df87937 ""
   "template.bbl" 1430325831 812 6d71a7d008abbef94208aeab0b4598a5 "bibtex template"
-  "template.tex" 1430329286 18174 fdb629d06f584a5b44d0b8ad74c92a6e ""
+  "template.tex" 1448671355 18099 473debf06baa5bf40219b82e83e734d3 ""
   "wordmark.png" 1430329261 17366 7993543521e116008965d16e856db3de ""
   (generated)
   "template.pdf"
-  "template.log"
   "template.aux"
+  "template.log"

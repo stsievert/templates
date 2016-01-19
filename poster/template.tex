@@ -32,7 +32,7 @@
 %\usepackage{algorithm}
 
 %\sbox0{\sffamily x}
-%\DeclareFontShape{T1}{cmss}{bx}{sc}{<->ssub*cmss/bx/n}{} 
+%\DeclareFontShape{T1}{cmss}{bx}{sc}{<->ssub*cmss/bx/n}{}
 %\usepackage[T1]{fontenc}
 %\usepackage[ansinew]{inputenc}
 
@@ -71,16 +71,9 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \begin{document}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%% Here starts the poster
-%%%---------------------------------------------------------------------------
-%%% Format it to your taste with the options
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Define some colors
-
-%\definecolor{lightblue}{cmyk}{0.83,0.24,0,0.12}
-%\definecolor{lightblue}{rgb}{0.145,0.6666,1}
-\definecolor{lightblue}{RGB}{123,17,19}
+\definecolor{maroon}{RGB}{123,17,19}
+\definecolor{red}{RGB}{255, 0, 0}
 
 \newcommand{\SSfontsize}{}
 \hyphenation{resolution occlusions}
@@ -95,12 +88,12 @@
   % Color style
   bgColorOne=white,
   bgColorTwo=white,
-  borderColor=lightblue,
+  borderColor=maroon,
   headerColorOne=black,
-  headerColorTwo=lightblue,
+  headerColorTwo=maroon,
   headerFontColor=white,
   boxColorOne=white,
-  boxColorTwo=lightblue,
+  boxColorTwo=maroon,
   % Format of textbox
   textborder=roundedleft,
   % Format of text header
@@ -119,7 +112,7 @@
   columns=3
   }
   % Eye Catcher
-  {\includegraphics[scale = 0.5]{logo-eps-converted-to}} 
+  {\includegraphics[scale = 0.5]{logo-eps-converted-to}}
   % Title
   {\hspace{1.5em}\huge\bf\textsc{Single \ \ Pixel \ \ Thermal \ \ Imaging \ \ via \ \ Adaptive \ \ Sampling}\vspace{0.2em}}
   % Authors
@@ -134,10 +127,10 @@
 %%% Now define the boxes that make up the poster
 %%%---------------------------------------------------------------------------
 %%% Each box has a name and can be placed absolutely or relatively.
-%%% The only inconvenience is that you can only specify a relative position 
-%%% towards an already declared box. So if you have a box attached to the 
-%%% bottom, one to the top and a third one which should be in between, you 
-%%% have to specify the top and bottom boxes before you specify the middle 
+%%% The only inconvenience is that you can only specify a relative position
+%%% towards an already declared box. So if you have a box attached to the
+%%% bottom, one to the top and a third one which should be in between, you
+%%% have to specify the top and bottom boxes before you specify the middle
 %%% box.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     %
@@ -178,10 +171,10 @@
 \noindent \SSfontsize{Some Thermal Imaging Preliminaries:
 \begin{itemize}
 \item All objects with temperatures above absolute zero emit electromagnetic radiation (according to the \emph{black body radiation} law).
-\item The ``peak'' wavelength at which energy is emitted decreases with increasing object temperature. 
+\item The ``peak'' wavelength at which energy is emitted decreases with increasing object temperature.
 \item Objects having temperatures between about 0$^{\circ}$C and 100$^{\circ}$C emit their peak energies at wavelengths in the \emph{long-wavelength infrared} regime ($\sim$8000-15000nm), much longer than the wavelengths of visible light ($\sim$400-700nm).
 \item Long-wavelength IR imaging (aka \emph{thermal imaging}) has emerged as a valuable tool with residential, industrial, and medical applications (see Figure~\ref{cc} below).
-\end{itemize} 
+\end{itemize}
 
 
         \begin{center}
@@ -193,16 +186,16 @@
 
 
             }
-} 
+}
 \headerbox{Problem Statement \& Our Approach}{name=our,column=0,row=2, below=background, above = bottom}{
     \noindent \SSfontsize{Low-cost visible light sensors (e.g., CMOS and CCD) are \uline{\textbf{not}} receptive to long-wavelength IR radiation. Instead, thermal imaging systems require expensive sensors and can cost upwards of \$3,000 or more to produce high resolution images!\\
-\\  
+\\
 We develop an alternative approach that uses a \emph{single} steerable long-wavelength IR sensor capable of ``sampling'' at user-specified points in the scene, and is equipped with a multi-stage \emph{adaptive sensing} strategy designed to \emph{automatically} acquire only ``informative'' samples of the scene.\\
-\\    
+\\
 \uline{Enabling idea}: \emph{Edges} often convey most information in (thermal) images.\\
 \\
 Our adaptive sensing approach (described next) exploits the fact that edge detail is naturally ``unveiled'' by the multi scale (Haar) wavelet representation of the image (see, e.g., Figure~\ref{multi} below)
-    
+
     \begin{center}
         \includegraphics[width=0.16\textwidth]{figures/p} {\footnotesize =}
         \includegraphics[width=0.16\textwidth]{figures/p1} {\footnotesize +}
@@ -211,9 +204,9 @@ Our adaptive sensing approach (described next) exploits the fact that edge detai
          \includegraphics[width=0.16\textwidth]{figures/p4} {\footnotesize +...}
         \captionof{figure}{Multiresolution (Haar) decomposition of a thermal image (far left).  Contributions at increasingly finer scales (moving from left to right) are restricted essentially to the vicinity of \emph{edges} in the original image.}\label{multi}
         \end{center}
-    
-    
-    
+
+
+
     }
 }
 
@@ -222,7 +215,7 @@ Our adaptive sensing approach (described next) exploits the fact that edge detai
 \headerbox{Adaptive Sensing Methodology}{name=recon,column=1, row=0}{%,below = top, above = bottom}{
     \noindent  \SSfontsize{
 %        Using this single pixel sensor we want to sample at areas that contain the most detail to reconstruct the most accurate approximation. The camera looks for edges in the Haar wavelet domain and reconstructs a wavelet approximation.
-%        
+%
 %        \begin{minipage}{0.48\textwidth}
 %        Some text here...
 %%\begin{figure}[H]
@@ -235,7 +228,7 @@ Our adaptive sensing approach (described next) exploits the fact that edge detai
 %\includegraphics[width=0.9\textwidth]{figures/tree}
 %%\includegraphics[width=0.9\textwidth]{figures/hardware-text}
 %%\hspace{-1em}\captionof{figure}{Top-down view of hardware.}\label{hw}
-%%\end{figure}   
+%%\end{figure}
 %\end{minipage}
 
 \noindent We consider a multi-step sampling and refinement strategy, where subsequent steps focus samples onto (sub)regions of interest. Our overall approach is as follows. \\
@@ -245,12 +238,12 @@ Our adaptive sensing approach (described next) exploits the fact that edge detai
 \underline{Iterate}: For $k=1,2,\dots,\log_2(n)-1$
 \begin{itemize}
 \item Randomly choose $m$ points $\Omega_k \subset {\cal I}^k$ (without replacement, and without duplicating previous choices) and collect $m$ samples $\mathbf{y}_k = \{y_{i,j}\}_{(i,j)\in\Omega_k}$
-\item Reconstruct the image by enforcing sparsity in a \emph{partial} Haar wavelet basis.  Let $\mathbf{W}_{k+ 1}$ be a matrix whose columns are basis elements for the first (coarsest) $k+1$ levels of the Haar wavelet basis, and solve (e.g., using FISTA \cite{beck2009fast}):\vspace{-0.3em} 
+\item Reconstruct the image by enforcing sparsity in a \emph{partial} Haar wavelet basis.  Let $\mathbf{W}_{k+ 1}$ be a matrix whose columns are basis elements for the first (coarsest) $k+1$ levels of the Haar wavelet basis, and solve (e.g., using FISTA \cite{beck2009fast}):\vspace{-0.3em}
 \begin{equation}\label{l1}
 \hat{\mathbf{\theta}}_k = \arg \min_{\mathbf{\theta}} \|\mathbf{y} - \mathbf{W}_{k+1}\mathbf{\theta}\|_2^2 + \lambda \|\mathbf{\theta}\|_1  \vspace{-0.3em}
 \end{equation}
- where $\mathbf{y}$ contains \emph{all} previously collected samples. 
-\item Identify coefficients of $\hat{\mathbf{\theta}}_k$ at the finest (i.e., $(k+1)$-st) scale that are ``significant''; let ${\cal I}^{k+1}$ be the grid points contained in the union of supports of those significant fine-scale coefficients.    
+ where $\mathbf{y}$ contains \emph{all} previously collected samples.
+\item Identify coefficients of $\hat{\mathbf{\theta}}_k$ at the finest (i.e., $(k+1)$-st) scale that are ``significant''; let ${\cal I}^{k+1}$ be the grid points contained in the union of supports of those significant fine-scale coefficients.
 \end{itemize}
 The \emph{final} estimate is obtained by \eqref{l1} with $\mathbf{W}$ as the complete Haar basis.
 
@@ -278,7 +271,7 @@ The \emph{final} estimate is obtained by \eqref{l1} with $\mathbf{W}$ as the com
 %\begin{figure}
 \includegraphics[width=0.9\textwidth]{figures/hardware-text}
 \hspace{-1em}\captionof{figure}{Top-down view of hardware.}\label{hw}
-%\end{figure}   
+%\end{figure}
 \end{minipage}
 \vspace{0.3em}
 
@@ -291,8 +284,8 @@ The \emph{final} estimate is obtained by \eqref{l1} with $\mathbf{W}$ as the com
   %%% COLUMN 3
 %\headerbox{Hardware}{name=implications1,column=2}{%, row=0, below=top}{%, below = top, above=re}{
 %    \noindent \SSfontsize{
-%     
-%    
+%
+%
 %    \begin{minipage}{0.45\textwidth}
 %This reconstruction algorithm was performed on actual hardware to demonstrate the use of this algorithm. It was performed on a Raspberry Pi credit card sized computer and used a single thermal sensor and precision stepper motors to collect data.
 %\end{minipage}   \hspace{3em}
@@ -301,13 +294,13 @@ The \emph{final} estimate is obtained by \eqref{l1} with $\mathbf{W}$ as the com
 %\includegraphics[width=0.80\textwidth]{figures/hardware-text}
 %%\caption{\label{fig:blue_rectangle} Rectangle}
 %\end{figure}
-%\end{minipage}  
+%\end{minipage}
 %\vspace{1em}
 %
 %        %\begin{center}
 %        %\includegraphics[width=0.45\textwidth]{figures/hardware-text}
 %        %\end{center}
-%        
+%
 %%        \begin{center}
 %%        \includegraphics[width=0.30\textwidth]{figures/hardware-text}
 %%        \end{center}
@@ -318,7 +311,7 @@ The \emph{final} estimate is obtained by \eqref{l1} with $\mathbf{W}$ as the com
     \noindent \SSfontsize{We evaluated our approach on a ``test scene'' comprised of a hot soldering iron against a concrete block-wall background.\\
     \\
     For $n\in\{64, 128, 256\}$ we virtually partitioned the scene into a $n\times n$ array of possible sampling locations, and compared the reconstructions obtained via \emph{exhaustive sampling} of all $n^2$ sampling points, and by the aforementioned adaptive sampling method.  A graphical comparison of the reconstructions for the $n=128$ case is provided below, along with a depiction of the sampling locations (determined automatically) using our adaptive sampling method.
-        
+
         \begin{center}
         \begin{tabular}{ccc}
             True image & Our Reconstruction &  Adaptively \\
@@ -329,7 +322,7 @@ The \emph{final} estimate is obtained by \eqref{l1} with $\mathbf{W}$ as the com
         \end{tabular}
         \end{center}
 
-\noindent We also tabulated the image acquisition time for each approach (shown below).  Overall, we see that the adaptive sensing approach yields $10\times$ or more improvements in acquisition time.       
+\noindent We also tabulated the image acquisition time for each approach (shown below).  Overall, we see that the adaptive sensing approach yields $10\times$ or more improvements in acquisition time.
 
         \begin{center}
         \begin{tabular}{c|cc}
@@ -359,7 +352,7 @@ The \emph{final} estimate is obtained by \eqref{l1} with $\mathbf{W}$ as the com
         \item establishing rigorous justification for our sensing strategy (e.g., using analyses along the lines of \cite{Nowak}), and
         \item implementing sampling-path planning strategies designed to minimize the acquisition time at each sampling step.
         \end{itemize}
-        We also plan to investigate extensions of this basic architecture to other single-sensor imaging problems (e.g., terahertz imaging?).  
+        We also plan to investigate extensions of this basic architecture to other single-sensor imaging problems (e.g., terahertz imaging?).
 
         }
 }
