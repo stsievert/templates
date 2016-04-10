@@ -1,0 +1,19 @@
+\frametitle{Sample ADMM implementation: lasso}
+\begin{verbatim}
+prox_f = @(v,rho) (rho/(1 + rho))*(v - b) + b;
+prox_g = @(v,rho) (max(0, v - 1/rho) - max(0, -v - 1/rho));
+
+AA = A*A';
+L  = chol(eye(m) + AA);
+
+for iter = 1:MAX_ITER
+    xx = prox_g(xz - xt, rho);
+    yx = prox_f(yz - yt, rho);
+
+    yz = L \ (L' \ (A*(xx + xt) + AA*(yx + yt)));
+    xz = xx + xt + A'*(yx + yt - yz);
+
+    xt = xt + xx - xz;
+    yt = yt + yx - yz;
+end
+\end{verbatim}
