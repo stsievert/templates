@@ -1,0 +1,63 @@
+% Example
+% Scott Sievert
+% 2016-07-21
+
+## Normal lists
+<div class="notes">
+Full documentation at
+http://pandoc.org/README.html#producing-slide-shows-with-pandoc
+
+
+↪  pandoc -t beamer -s present.pandoc -H header.tex -o beamer.pdf
+</div>
+
+- Turn off alarm
+- Get out of bed
+
+\begin{info}{Title}
+This is a theorem it is very important!!
+\end{info}
+\begin{warning}{Title}
+This is a theorem it is very important!!
+\end{warning}
+
+## Pauses
+
+> You didn't use a pause.
+
+. . .
+
+> Huh? I just did!
+
+## Code blocks
+```python
+string_ = "This is a string"
+for s in string_:
+    print(s, end='')
+
+import numpy as np
+a = np.random.randn(10)
+b = np.random.randn(20)
+c = a @ b
+print(c)
+```
+
+## Incremental lists
+
+>- Eat eggs
+>- Drink coffee
+
+
+## Dinner
+
+- Eat spaghetti
+- Drink wine
+    - Nested list item
+    - Nested list item 2
+
+![picture of spaghetti](horse.jpg)
+
+## Going to sleep
+
+- Get in bed
+- Count sheep

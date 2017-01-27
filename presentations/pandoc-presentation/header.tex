@@ -1,0 +1,60 @@
+\usepackage{graphicx,amsmath,amssymb,tikz,psfrag}
+\usepackage{xcolor}
+\definecolor{infoblue}{RGB}{185,216,255}
+\definecolor{warningred}{RGB}{255,182,178}
+\input{defs.tex}
+
+%% formatting
+
+\setbeamerfont{title}{size=\Large, series=\bfseries}
+\mode<presentation>
+{
+\usetheme{default}
+}
+\setbeamertemplate{navigation symbols}{}
+\usecolortheme[rgb={0.13,0.28,0.59}]{structure}
+\setbeamertemplate{itemize subitem}{--}
+
+% Definig thm boxes. use `\begin{info}{Title} ... \end{info}`
+\newenvironment{info}[1]{
+  \setbeamercolor{block body}{bg=infoblue,fg=black}
+  \setbeamercolor{block title}{bg=infoblue,fg=black}
+  \setbeamerfont{block title}{series=\bfseries}
+  \begin{block}{#1}}{\end{block}
+}
+\newenvironment{warning}[1]{
+  \setbeamercolor{block body}{bg=warningred,fg=black}
+  \setbeamercolor{block title}{bg=warningred,fg=black}
+  \setbeamerfont{block title}{series=\bfseries}
+  \begin{block}{#1}}{\end{block}
+}
+\addtobeamertemplate{block begin}{%
+  \setlength{\textwidth}{0.8\textwidth}%
+}{}
+
+\setbeamertemplate{frametitle} {
+    \vspace{0.5em}
+    \hspace{-1.5em}
+  {\Large\bf \insertframetitle}
+}
+
+\newcommand\footlineon{
+  \setbeamertemplate{footline} {
+    \begin{beamercolorbox}[ht=2.5ex,dp=1.125ex,leftskip=.8cm,rightskip=.6cm]{structure}
+      \footnotesize \insertsection
+      \hfill
+      {\insertframenumber}
+    \end{beamercolorbox}
+    \vskip 0.45cm
+  }
+}
+\footlineon
+
+\AtBeginSection[] 
+{ 
+    \begin{frame}<beamer> 
+        \frametitle{Outline} 
+        \tableofcontents[currentsection,currentsubsection] 
+    \end{frame} 
+} 
+
