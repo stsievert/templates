@@ -1,25 +1,3 @@
-\usepackage[usenames,dvipsnames]{xcolor}
-\usepackage{hyperref}
-\hypersetup{
-    unicode=false,                % non-Latin characters in Acrobat’s bookmarks
-    pdftoolbar=true,              % show Acrobat’s toolbar?
-    pdfmenubar=true,              % show Acrobat’s menu?
-    pdffitwindow=false,           % window fit to page when opened
-    pdfstartview={FitH},          % fits the width of the page to the window
-    pdftitle={CV},                % title
-    pdfauthor={Scott Sievert},    % author
-    pdfsubject={},                % subject of the document
-    pdfcreator={Scott Sievert},   % creator of the document
-    pdfproducer={Scott Sievert},  % producer of the document
-    pdfkeywords={compressed sensing,} {research,} {adaptive sampling,}, % list of keywords
-    pdfnewwindow=true,            % links in new window
-    colorlinks=true,              % false: boxed links; true: colored links
-    linkcolor=red,                % color of internal links
-    citecolor=green,              % color of links to bibliography
-    filecolor=magenta,            % color of file links
-    urlcolor=NavyBlue             % color of external links
-}
-
 \newcommand{\yb}{\mathbf{y}}
 \newcommand{\wb}{\mathbf{w}}
 \newcommand{\bb}{\mathbf{b}}
@@ -27,7 +5,18 @@
 \newcommand{\xhatb}{\widehat{\mathbf{x}}}
 \newcommand{\Ab}{\mathbf{A}}
 \newcommand{\Xb}{\mathbf{X}}
-\newcommand{\matrix}[1]{\begin{bmatrix} #1 \end{bmatrix}}
+\newcommand{\hb}{\mathbf{h}}
+\newcommand{\Db}{\mathbf{D}}
+\newcommand{\Zb}{\mathbf{Z}}
+\newcommand{\Bb}{\mathbf{B}}
+\newcommand{\by}{\mathbf{y}}
+\newcommand{\bw}{\mathbf{w}}
+\newcommand{\bx}{\mathbf{x}}
+\newcommand{\bxhat}{\widehat{\mathbf{x}}}
+\newcommand{\bA}{\mathbf{A}}
+\newcommand{\bX}{\mathbf{X}}
+\newcommand{\btheta}{\mathbf{\theta}}
+\newcommand{\Matrix}[1]{\begin{bmatrix} #1 \end{bmatrix}}
 \newcommand{\norm}[1]{\left\lVert #1 \right\rVert}
 \newcommand{\abs}[1]{\left| #1 \right|}
 \newcommand{\Align}[1]{\begin{aligned} #1 \end{aligned}}
@@ -40,3 +29,12 @@
 \newcommand{\reals}{\mathbb{R}}
 \newcommand{\R}{\mathbb{R}}
 \newcommand{\given}[1][]{\:\Big\vert\:}
+\newcommand{\var}[1]{\textrm{var}\parens{#1}}
+\newcommand{\E}[1]{\mathbb{E}\left[ #1 \right]}
+\newcommand{\estimate}[1]{\widehat{#1}}
+\newcommand{\sign}{\textrm{sign }}
+\newcommand{\normal}[2]{\mathcal{N}\parens{#1, #2}}
+\newcommand{\est}[1]{\widehat{#1}}
+\newcommand{\diag}[1]{\text{diag}}
+\newcommand{\Exp}[1]{\exp\parens{#1}}
+
