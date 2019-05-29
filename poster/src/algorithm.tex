@@ -1,0 +1,23 @@
+
+ed utinam explicari an, virtute theophrastus nam ea. Enim everti legimus quo ex, ius ea possit minimum:
+$$\gamma_k = \gamma_0 / \sqrt{k}$$
+for some constant $\gamma_0$.
+
+\begin{algorithm}[H]
+\caption{Step size decay SGD}\label{alg:adaptive-max-batch}
+\begin{algorithmic}[1]
+\Procedure{DecaySGD}{step size $\gamma_0$, initial model $\xb_0$, batch size $B$}
+    \For{$k\in [0, 1, 2, \ldots]$}
+    \If{$k = 0$}
+    \State $\gamma_k = \gamma_0$
+    \EndIf
+    \State $\gamma_k \assign \gamma_0 / \sqrt{k}$
+    \State $\est{g} \assign \frac{1}{B}\sum_{j=1}^{B} \grad f_{i_j}(\xb)$
+    \State $\xb_{k+1} \assign \xb_k - \gamma_k\est{g}$
+    \EndFor
+    \Return{$x_k$}
+\EndProcedure
+\end{algorithmic}
+\end{algorithm}
+
+An aeque urbanitas vel, ex eos atqui iriure ceteros, sit diam assum alienum an. Ius te sale appetere appellantur. Ne eum prompta utroque, et verterem argumentum mediocritatem cum. Sit summo mediocritatem te, ei mel.

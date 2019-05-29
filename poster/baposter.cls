@@ -156,8 +156,7 @@
 %\RequirePackage[l2tabu, orthodox]{nag}
 \usetikzlibrary{decorations}
 \usetikzlibrary{fadings}
-%\usetikzlibrary{snakes}
-%\usetikzlibrary{decorations.pathmorhing}
+\usetikzlibrary{snakes}
 \usetikzlibrary{calc}
 
 
@@ -206,7 +205,7 @@
 \DeclareOptionX{archC}         {                           \baposter@setfinalpapersize{18in}{24in}}%
 \DeclareOptionX{archD}         {                           \baposter@setfinalpapersize{24in}{36in}}%
 \DeclareOptionX{archE}         {                           \baposter@setfinalpapersize{36in}{48in}}%
-\DeclareOptionX{archE1}        {                           \baposter@setfinalpapersize{31.5in}{40in}}%
+\DeclareOptionX{archE1}        {                           \baposter@setfinalpapersize{30in}{42in}}%
 \DeclareOptionX{archE2}        {                           \baposter@setfinalpapersize{26in}{38in}}%
 \DeclareOptionX{archE3}        {                           \baposter@setfinalpapersize{27in}{39in}}%
 \DeclareOptionX{a0paper}       {\@geometryKnowsThisSizetrue\baposter@setfinalpapersize{841mm}{1189mm}}%g
